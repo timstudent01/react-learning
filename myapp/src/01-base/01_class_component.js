@@ -28,12 +28,14 @@
 
 import React from "react";
 import AppMiddleTest from "./01_middle_component";
+import App2 from "./02_functional_component";
 class App extends React.Component {
     render() {
         return (
             <div className="App">
                 我是App 01_class_component 組件
                 <AppMiddleTest />
+                <App2 />
             </div>
         )
     }
