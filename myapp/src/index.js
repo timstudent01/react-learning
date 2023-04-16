@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react"
+import ReactDOM from "react-dom/client"
+import "./index.css"
+import App from "./01-base/01_class_component"
+const root = ReactDOM.createRoot(document.querySelector("#root"))
+const arr = ["嗨", "123","I am Terry"]
+const arrItem = arr.map((item) => {
+    return <li>{item}</li>
+    }
+)
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <React.StrictMode>
+        <div className="class" id="id">
+            hello world
+            <ul>
+                {arrItem}
+            </ul>
+        </div>
+        <div>
+            <App/>
+        </div>
+    </React.StrictMode>
+)
