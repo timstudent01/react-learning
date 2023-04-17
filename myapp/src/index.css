@@ -21,3 +21,9 @@
 .App_middle {
     background-color: palegreen;
 }
+.component_holder {
+    background-color: rgb(255, 227, 158);
+}
+.child {
+    background-color: blanchedalmond;
+}
