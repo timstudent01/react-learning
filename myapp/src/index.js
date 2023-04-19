@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 // import "./index.css"
-import App from "./01-base/08_state"
+import App from "./01-base/10_todolist"
 // import ComponentHolder from "./01-base/03_component_holder"
 // import EventBind from "./01-base/05_event_bind";
 const root = ReactDOM.createRoot(document.querySelector("#root"))
